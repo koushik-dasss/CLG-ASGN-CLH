@@ -8,6 +8,9 @@ public class A0Q2 {
         //OR
         //Single line of code to print two different lines or multiple lines 
         System.out.println("My name is Koushik Das"+"\nMy branch is CSIT");
+        // \n is to be used for printing two different lines but by using one single line of code 
+        // sout( " " + "\n ");
+        
     
     }
     
