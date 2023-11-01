@@ -5,8 +5,8 @@ public class A1Q7 {
         int c=a;
         a=b;
         b=c;
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println("Swapped value of a is:"+a+"\nSwapped value of b is:"+b);
+        
 
     }
 }
