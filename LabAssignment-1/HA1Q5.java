@@ -13,6 +13,29 @@ public class HA1Q5 {
         System.out.println(A);
 
 
+        // optimised code with 4 variables (arithmetic operations)
+
+        W=W+G;
+        G=W-G;
+        W=W-G;
+
+        G=G+K;
+        K=G-K;
+        G=G-K;
+
+        K=A+K;
+        A=A-K;
+        K=A-K;
+
+        A=A+W;
+        W=A-W;
+        A=A-W;
+
+
+        
+        
+
+
 
     }
     
