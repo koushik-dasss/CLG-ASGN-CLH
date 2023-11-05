@@ -19,8 +19,11 @@ public class HA1Q5 {
         int W=10, G=20,K=30,A=40;
         // the value of W will move to A, A to K, K to G and finally G to W
 
-        A= A+K+G+W; // A = 40+30+20+10 = 100
-        W= A-(G+K+W);
+        W=A+G+K+W; 
+        A= W-(G+K+A); // A=10
+        K= W-(G+K+A); // K=40
+        G= W-(G+K+A); // G=30
+        W= W-(G+K+A); // W=20
               
 
         System.out.println(W);
