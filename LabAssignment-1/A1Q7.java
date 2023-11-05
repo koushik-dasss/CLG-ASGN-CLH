@@ -1,12 +1,19 @@
 public class A1Q7 {
     public static void main(String[] args){
-        int a=10;
-        int b=20;
-        int c=a; //c=10
-        a=b; //a=20
-        b=c; //b=10
-        System.out.println("Swapped value of a is:"+a+"\nSwapped value of b is:"+b);
+        /*int x=10,y=20,z=0;
+        z=x; // z = x = 10
+        x=y; // x = y = 20
+        y=z; // y = z = 10
+        System.out.println("Exchanged value of x is:"+x+"\nExchanged value of y is:"+y); */
+        
 
+        // OR(same logic )
+
+        /* int x=10,y=20,z=0;
+        z=y; // z = y = 20
+        y=x; // y = x = 10
+        x=z; // x = z = 20
+        System.out.println("Exchanged value of x is:"+x+"\nExchanged value of y is:"+y); */
 
     }
 }
