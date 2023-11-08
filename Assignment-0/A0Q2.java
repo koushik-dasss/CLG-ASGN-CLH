@@ -11,7 +11,7 @@ public class A0Q2 {
         // \n is to be used for printing two different lines but by using one single line of code 
         // sout( " " + "\n ");
 
-         //OR(Single line in output with single line of code)
+         //OR(Single line in output to print  single line of code with a tab space )
          System.out.println("My name is Koushik Das\tMy branch is CSIT");
          
     }
