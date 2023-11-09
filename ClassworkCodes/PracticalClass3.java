@@ -33,10 +33,14 @@ public class PracticalClass3 {
         System.out.println("The string value is:"+v9); // whole set of words in a string as input
 
 
+
+        sc.close();
+
+
         
 
 
-;
+
 
 
 
