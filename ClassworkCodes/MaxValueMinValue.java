@@ -53,13 +53,39 @@ public class MaxValueMinValue {
         System.out.println(b*1);
         System.out.println(b*3);
         System.out.println(b*5);
+        
+        
+        // Multiplication of Short.MAX_VALUE with even number 
 
-       
-       // Multiplication of Short.MAX_VALUE with even number 
+        // Normal Multiplication as no short  value underflow/overflow takes place 
 
-       System.out.println(c*2);
-       System.out.println(c*4);
-       System.out.println(c*6);
+        System.out.println(c*2);  
+        System.out.println(c*4);
+        System.out.println(c*6);
+
+        // Multiplication of Short.MAX_VALUE with odd number
+        
+        
+        // Normal Multiplication as no short  value underflow/overflow takes place 
+
+        System.out.println(c*1);  
+        System.out.println(c*3);
+        System.out.println(c*5);
+
+        // Multiplication of Byte.MAX_VALUE with even no. 
+
+        System.out.println(e*2);
+        System.out.println(e*4);
+        System.out.println(e*6);
+
+        // Multiplication of Byte.MAX_VALUE with odd no. 
+
+        System.out.println(e*1);
+        System.out.println(e*3);
+        System.out.println(e*5);
+
+
+
 
 
 
