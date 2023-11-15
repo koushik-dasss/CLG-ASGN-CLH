@@ -23,11 +23,11 @@ public class A1Q7 {
         // Taking input from user via keyboard
         System.out.println("Enter two integers:");
         int a = sc.nextInt(), b = sc.nextInt(), temp;
-        System.out.println(" Before swap  a = "+ a + " b = " + b );
+        System.out.println(" Before swap : a = "+ a + " b = " + b );
         temp = a ;
         a = b ;
         b = temp ;
-        System.out.println(" After swap   a = "+  a + " b = " + b );
+        System.out.println(" After swap : a = "+  a + " b = " + b );
 
 
         
