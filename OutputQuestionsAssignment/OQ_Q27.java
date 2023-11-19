@@ -7,7 +7,7 @@ public class OQ_Q27 {
         short s = 60;
         byte b = 70;
         byte sum = (byte)(l + i + s + b);
-        System.out.println("Sum = " + sum);
+        System.out.println("Sum = " + sum); // comment 
     }
     
 }
