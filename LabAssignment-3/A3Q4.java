@@ -8,10 +8,9 @@ public class A3Q4 {
         int ComputerValue = sc.nextInt();
         if ( ComputerValue == UserValue ){
             System.out.println("You got it right ");
-        } else if (ComputerValue == UserValue + 1 ) {
+        } else if ((ComputerValue == UserValue + 1 )||(ComputerValue == UserValue -1)) {
             System.out.println("Almost got it ");
-        } else if (ComputerValue == UserValue -1 ) {
-            System.out.println("Almost got it ");
+        
         } else {
             System.out.println("You got it wrong ");
         }
