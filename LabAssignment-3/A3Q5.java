@@ -4,7 +4,7 @@ public class A3Q5 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the year : ");
         int year = sc.nextInt();
-        if ((year % 4 == 0 || year % 100 == 0 ) &&(year % 400 == 0)){
+        if ((year % 4 == 0 && year % 100 != 0 ) || (year % 400 == 0)){
             boolean b1 = true ;
             System.out.println(year + " is a leap year : " + b1 );
 
