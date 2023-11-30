@@ -4,7 +4,7 @@ public class A2Q1 {
         Scanner sc = new Scanner(System.in);
         /*System.out.print("Enter a degree in Fahrenheit:");
         double fahrenheit = sc.nextDouble();
-        double celsius = (fahrenheit-32) *(5.0/9); // (float)5/9 == (5.0/9) == (5/9.0) == (5.0/9.0)
+        double celsius = (fahrenheit-32) *(5.0/9); // (float)(5)/9 == (5.0/9) == (5/9.0) == (5.0/9.0)
         System.out.println(fahrenheit+" Fahrenheit is "+ celsius+" Celsius" );*/
          
 
@@ -13,7 +13,7 @@ public class A2Q1 {
         
         /*System.out.print("Enter a degree in Fahrenheit:");
         int f = sc.nextInt();
-        float c = (f-32)*(float)5/9; // (float)5/9 == (5.0/9) == (5/9.0) == (5.0/9.0)
+        float c = (f-32)*(float)5/9; // (float)(5)/9 == (5.0/9) == (5/9.0) == (5.0/9.0)
         System.out.println(f+" Fahrenheit is "+ c+" Celsius" );*/
 
         
