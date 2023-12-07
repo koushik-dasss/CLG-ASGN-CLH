@@ -1,59 +1,47 @@
 import java.util.Scanner;
-public class A3Q7 {
+public class RoughCodes{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("No. of units consumed  : ");
-        double Unit_Range = sc.nextInt(), Bill_Amount = 0  ;
-        if (Unit_Range <= 50 ){
-             Bill_Amount = Unit_Range*3;
-        } else if (Unit_Range >= 50 && Unit_Range <=200){
-             Bill_Amount = Unit_Range*4.80;
-        } else if (Unit_Range >= 200 && Unit_Range <= 400 ){
-             Bill_Amount = Unit_Range*5.80;
-        } else if ( Unit_Range >= 400 ){
-             Bill_Amount = Unit_Range*6.80;
-            
+        System.out.println("Enter the unit range : ");
+        int u = sc.nextInt();
+        double bill ;
+        if (u<=50){
+            bill = u*3.0;
+
+        } else if (u<=200){
+            bill = 50*3.0 + (u-150)*4.80;
+
+        } else if (u<=400){
+            bill = 50*3.0 + 150*4.80 + (u-200)*5.80;
+
+        } else {
+            bill = 50*3.0 + 150*4.80 + 200*5.80 + (u-400)*6.20;
+
         }
-        double Discount_Amount = (3.0/100)*Bill_Amount;
+        System.out.println("The unit range is : "+ u);
+        System.out.println("The electricity bill payment is : "+ bill );
+
         sc.nextLine();
-        System.out.print("Do you want to pay online(y/n): " );
-        String answer = sc.nextLine();
-        if (answer.equals("y")){
-            System.out.println("Total amount : "+ Bill_Amount);
-            System.out.println("Discount : "+ Discount_Amount);
-            System.out.println("Amount payable : "+ (Bill_Amount - Discount_Amount ));
-
-        } else if (answer.equals("n")) {
-            System.out.println("Total amount : "+ Bill_Amount);
-            System.out.println("Discount :" + 0.0);
-            System.out.println("Amount payable : "+ Bill_Amount);
+        System.out.println("Want to pay online , (Y/N): ");
+        char ch = sc.next().charAt(0);
+        if ((ch =='Y' || ch =='y' )){
+            System.out.println("You want to pay online .");
+            double disc = 0.03*bill;
+            System.out.println("Discount is : "+ disc);
+            System.out.println("Payment is :"+ (bill - disc));
         }
-        
-        
-        sc.close();
-        
-        
+        else if ((ch == 'N' || ch == 'n')){
+            System.out.println("You want to play offline.");
+            System.out.println("Payment is :"+ bill);
 
- 
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
+
+        } else {
+            System.out.println("Wrong option chosen ");
+        }
+
+
     }
-    
 }
+
+
