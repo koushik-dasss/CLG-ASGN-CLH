@@ -6,19 +6,19 @@ public class A3Q8 {
         double x = sc.nextDouble() , y = sc.nextDouble();
         
 
-        if ( x>=1 &&  y>=1) {
+        if ( x>0 &&  y>0) {
             System.out.println( " ( " +  x  + "," + y + ")" + " is in quadrant I  ");
 
 
-        } else if ( x>=1 && y<=-1){
+        } else if ( x>0 && y<0){
             System.out.println( " ( " +  x  + "," + y + ")" + " is in quadrant IV  ");
 
 
-        } else if ( x<=-1 && y>=1){
+        } else if ( x<0 && y>0){
             System.out.println( " ( " +  x  + "," + y + ")" + " is in quadrant II ");
 
 
-        } else if ( x<=-1 && y<=-1){
+        } else if ( x<0 && y<0){
             System.out.println( " ( " +  x  + "," + y + ")" + " is in quadrant III  ");
 
         } else if (x==0 && y==0){
