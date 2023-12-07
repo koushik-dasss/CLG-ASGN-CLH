@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class RoughCodes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(Math.random());
         System.out.print("Enter user number :");
         int UserValue = sc.nextInt();
         System.out.print("Computer guesses :");
