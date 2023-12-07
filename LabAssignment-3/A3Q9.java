@@ -4,11 +4,31 @@ public class A3Q9 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of a,b,c :  " );
         int a = sc.nextInt(), b = sc.nextInt() , c = sc.nextInt();
-        int MaxValue = Math.max(a,Math.max(b,c));
-        int MinValue = Math.min(a,Math.min(b,c));
-        int SecondMaxValue = (a + b + c) - MaxValue - MinValue ;
-        System.out.println("Largest number : " + MaxValue);
-        System.out.println("2nd largest number: " + SecondMaxValue);
+        if (a>b && a>c){
+            System.out.println(a+" is the largest");
+            if (b>c){
+                System.out.println(b+" is the second largest");
+            }else{
+                System.out.println(c+" is the second largest");
+            }
+        } else if(b>a && b>c){
+            System.out.println(b+" is the largest");
+            if (a>c){
+                System.out.println(a+" is the second largest");
+
+            }else {
+                System.out.println(c+" is the second largest");
+
+            }
+        } else {
+            System.out.println(c+" is the largest");
+            if (c>b){
+                System.out.println(c+" is the second largest");
+            }else{
+                System.out.println(b+" is the second largest");
+            }
+        }
+        
 
 
 
