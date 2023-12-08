@@ -3,9 +3,10 @@ public class A3Q10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter secured marks : ");
-        int marks = sc.nextInt();
+        double  marks = sc.nextDouble();
+        int index = (int) (marks/10);
         String grade = " " ;
-        switch (marks/10){
+        switch (index){
 
             case 10:
             case 9 : grade  = "O";
@@ -25,7 +26,7 @@ public class A3Q10 {
             default: grade = "F";
             break;
         }
-           System.out.println(grade);
+           System.out.println(marks+" marks  = " + grade + " grade");
            sc.close();
     }
 }
