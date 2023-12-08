@@ -22,8 +22,8 @@ public class A3Q9 {
             }
         } else {
             System.out.println(c+" is the largest");
-            if (c>b){
-                System.out.println(c+" is the second largest");
+            if (a>b){
+                System.out.println(a+" is the second largest");
             }else{
                 System.out.println(b+" is the second largest");
             }
