@@ -17,8 +17,9 @@ import java.util.Scanner;
 public class 0_to_9_9_to_0_For2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        for (int i = 0 ; i<=9 ;  i++){
-            System.out.println(i+"\t"+(9-i));
+        for (int i = 0 , j = 9  ; i<=9 && j>=0  ;  i++ , j--){   // Taking extra one variable and one extra condition
+            // Non optimized code 
+            System.out.println(i+"\t"+j);
 
         }
 
