@@ -9,7 +9,7 @@
 
 package PatternTypeQuestions;
 import java.util.Scanner;
-public class N_Times_MessageDisplay {
+public class N_Times_MessageDisplay_For {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a message : ");
