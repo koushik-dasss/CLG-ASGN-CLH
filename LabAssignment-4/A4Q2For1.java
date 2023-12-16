@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class A4Q2For {
+public class A4Q2For1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
@@ -14,7 +14,7 @@ public class A4Q2For {
             System.out.println("The number " + number + " is divisible by 9 ");
 
         } else {
-            System.out.println(  "The number "+number + " is not divisible by 9 ");
+            System.out.println("The number " + number + " is not divisible by 9 ");
         }
 
 
