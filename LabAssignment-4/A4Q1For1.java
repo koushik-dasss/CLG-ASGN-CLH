@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class A4Q1For {
+public class A4Q1For1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
