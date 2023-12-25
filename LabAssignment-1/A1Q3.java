@@ -8,6 +8,9 @@ public class A1Q3 {
 		System.out.println("##                                      ##");
 		System.out.println("##                                      ##");
 		System.out.println("##########################################");
+		
+
+			
 	
 	}
 
