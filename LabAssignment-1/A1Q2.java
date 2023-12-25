@@ -4,6 +4,9 @@ public class A1Q2 {
 		System.out.println("*******     *******");
 		System.out.println("      *     *     *");
 		System.out.println("      *******     *******");
+
+
+		
 	}
 
 }
