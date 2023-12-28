@@ -9,10 +9,6 @@ public class HA1Q1 {
         System.out.println("bc"+2+3);   // left to right order, so first concatenation then again string + int concatenation
         // "bc"+ 2 = "bc2" +"3" = "bc23" 
 
-
-
-        
-
     }
     
 }
