@@ -22,20 +22,26 @@ public class A1Q10 {
 
         //Optimized Code (only one variable created , no need of multiple variables)
         
-        String S1="1";
+       /*  String S1="1";
         System.out.println(S1);
         S1 = S1 + 2 + S1 ; /*  "2"/2 as string + string = string , int + string = string ,
-        // where + works as concatenation operator */
+        // where + works as concatenation operator 
         System.out.println(S1); 
         S1 = S1 + 3 + S1;
         System.out.println(S1);
         S1 = S1 + 4 + S1;
+        System.out.println(S1); */
+
+        // Spaces given :- (required according to output , with optimized string code):-
+
+        String S1 ="1" ;
+        System.out.println(S1 );
+        S1 = S1 +  " " + 2 + " " +  S1 ;
         System.out.println(S1);
-
-        
-
-
-
+        S1 = S1 + " "+ 3 +" "+ S1 ;
+        System.out.println(S1);
+        S1 = S1 +" "+ 4 +" "+ S1 ;
+        System.out.println(S1);
     }
     
 }
