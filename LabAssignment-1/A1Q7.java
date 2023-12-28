@@ -30,15 +30,6 @@ public class A1Q7 {
         System.out.println(" After swap : a = "+  a + " b = " + b );
 
 
-        
-
-
-
-
-
-
-
-
-        sc.close();
+    sc.close();
     }
 }
