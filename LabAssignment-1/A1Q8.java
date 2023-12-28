@@ -25,9 +25,6 @@ public class A1Q8 {
         a = a - b ;
         System.out.println("After swap  :  a = "+ a + " b = " + b  );
 
-        
-
-
         sc.close();
 
     }
