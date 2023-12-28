@@ -9,11 +9,10 @@ public class A1Q6 {
 
         // Taking user input via keyboard
 
-        int account_no = sc.nextInt();
-        String name = sc.next();
+        int Account_No = sc.nextInt();
         double balance = sc.nextDouble();
-        System.out.println("My name is "+name+" bearing  account number "+ account_no+" having  balance  "+ balance);  
-
+        String name =  sc.nextLine();
+        System.out.println("My name is " + name + " bearing account number "+  Account_No +" having balance " + balance );
 
 
 
