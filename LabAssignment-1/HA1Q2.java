@@ -8,9 +8,6 @@ public class HA1Q2 {
         System.out.println((char)('a'+4)); // 'a' will be treated as a character 
         // a = 96
         // (char) ( 97 + 4 ) = (char) (101) = 'e' 
-
-        
-
     }
     
 }
