@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RoughCodes {
+public class A3Q4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter user number :");
@@ -14,7 +14,10 @@ public class RoughCodes {
             System.out.println("Almost got it ");
         }else {
             System.out.println("You got it wrong ");
+
         }
+
+        sc.close();
 
 
 
