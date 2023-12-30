@@ -11,6 +11,17 @@ public class A2Q3 {
         System.out.println("HRA is "+ HRA);
         System.out.println("Gross salary is "+gross_salary );
 
+
+        // OR (revised code)(just changed the floating representation)
+        /*System.out.print("Enter basic salary: ");
+        double bs = sc.nextDouble();
+        double da = (4.0/10)*bs;
+        double hra = (2.0/10)*bs;
+        double gs = da + hra + bs;
+        System.out.println("DA is "+ da);
+        System.out.println("HRA is "+ hra);
+        System.out.println("GS is "+ gs); */
+
         sc.close();
 
     }
