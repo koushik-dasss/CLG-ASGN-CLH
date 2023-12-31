@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class A2Q4 {
     public static void  main(String[] args){
         Scanner sc = new Scanner(System.in);
+        sc.close();
+        
         // Non-optimized logic:- 
 
         // (Arithmetic way)
@@ -11,6 +13,7 @@ public class A2Q4 {
         System.out.println("The sum of digits is: "+ (a + c + d) );*/
 
         // Without using any loop :- (logic of loop used in normal code without loop)
+        
         /*System.out.print("Enter an integer between 0-1000: ");
         int num = sc.nextInt() , sum = 0 , r ;
         r = num%10;
@@ -36,33 +39,26 @@ public class A2Q4 {
 
         // For loop :-
 
-        System.out.print("Enter a number between 0 and 1000: ");
+        /*System.out.print("Enter a number between 0 and 1000: ");
         int n = sc.nextInt() , sum = 0 , r ;
         for ( ; n!=0; ){
            r = n%10;
            sum+=r;
            n/=10;
         }
+        System.out.println("The sum of the digits is : "+ sum); */
+
+        // For Loop( Condition inside for statement )
+        System.out.print("Enter a number between 0 and 1000: ");
+        int n = sc.nextInt() , sum = 0 , r ;
+        for ( ; n!=0;n/=10 ){
+           r = n%10;
+           sum+=r;
+
+       }
         System.out.println("The sum of the digits is : "+ sum);
-
-
-
-
-
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        sc.close();
-
-        
-    }
+ }
     
 }
+      
