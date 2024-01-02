@@ -6,22 +6,6 @@ public class A2Q6 {
         double  t = sc.nextDouble(), g = 32.174 ;
         double d = (0.5)*g*t*t;
         System.out.println("Distance travelled: "+ d);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         sc.close();
         
     }
