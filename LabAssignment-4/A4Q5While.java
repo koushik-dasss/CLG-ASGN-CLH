@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class A4Q5While {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(Sytem.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
         int num = sc.nextInt() , sum = 0, i = 1 ;
         while (i<=(num/2)){

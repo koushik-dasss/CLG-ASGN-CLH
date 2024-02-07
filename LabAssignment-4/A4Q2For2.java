@@ -5,6 +5,7 @@ public class A4Q2For2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
         int n = sc.nextInt(), sum = 0 , r ;
+        sc.close();
         System.out.print(n);
         for ( ; n!=0 ; n/=10) {
             r = n % 10;
@@ -20,7 +21,7 @@ public class A4Q2For2 {
 
         
         
-        sc.close();
+        
     }
     
 }

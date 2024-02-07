@@ -21,6 +21,6 @@ public class A3Q6{
         System.out.println("The unit range is : "+ u);
         System.out.println("The electricity bill payment is : "+ bill );
         
-    
+        sc.close();
      }
     }

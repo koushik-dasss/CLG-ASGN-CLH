@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class A4Q3While {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int sum = 0 , n = sc.nextInt() , ctr = 1;
         while (ctr<=n) {
             int  Random_Numbers = (1 + (int) ((n + 1) * Math.random() - 1) );
             System.out.print(Random_Numbers + " " );
